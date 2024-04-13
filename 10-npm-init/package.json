@@ -1,0 +1,24 @@
+{
+    "name": "npm-first-project",
+    "version": "1.0.0",
+    "description": "first",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "npm"
+    ],
+    "author": "Pavlo",
+    "license": "ISC",
+    "dependencies": {
+        "debug": "^4.3.4",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.1.0"
+    }
+}
